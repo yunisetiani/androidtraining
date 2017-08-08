@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jamur"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Hello World!"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textColor="@color/accent_material_light"
+        android:textSize="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:hint="Type your name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:hint="Type your addres" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:text="Sex :"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="141dp"
+            android:layout_height="56dp"
+            android:layout_weight="0.28"
+            android:checked="false"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Female" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Submit" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="0.44"
+        android:src="@drawable/jamur" />
+
+
+</LinearLayout>
+

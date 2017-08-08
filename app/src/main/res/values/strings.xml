@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">yuni2</string>
+    <string name="daftar_riwayat_hidup">DAFTAR RIWAYAT HIDUP</string>
+    <string name="email">Email</string>
+    <string name="tempat_tanggal_lahir">TEMPAT</string>
+    <string name="phone">Telephone</string>
+</resources>
